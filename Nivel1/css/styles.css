@@ -79,21 +79,25 @@
     width: 75%;
     background-color: grey;
     flex-direction: column;
+    padding: 15px;
     gap: 25px;
-    padding: 25px;
-
-
 }
 
 .container2-left-articles {
-    display: flex;
+    border-spacing: 10px;
+    width: 100%;
+}
+
+td {
+
+    padding: 10px;
     background-color: blue;
-    gap: 50px;
-    padding: 50px;
+    width: 50%;
 }
 
 .container2-left-navigation {
     background-color: aqua;
+    padding: 10px;
 }
 
 .publicity {
