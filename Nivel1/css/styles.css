@@ -96,37 +96,36 @@
 
 
 @media (max-width: 768px) {
-    .header1 {
+  .header1 {
     grid-template-columns: 1fr;
-    }
+  }
 
-    .banner {
-        grid-column: span 1;
-    }
-    
-    .main {
-        grid-template-columns: 1fr;
-    }
+.banner {
+    grid-column: span 1;
+}
+  
+.main {
+    grid-template-columns: 1fr;
+}
 
 }
 
 @media (max-width: 480px) {
     
-    .articles {
-        grid-template-columns: 1fr;
-    }
+  .articles {
+    grid-template-columns: 1fr;
+  }
 
-    .banner , .navegacion {
-        grid-column: span 1;
-    }
-    
-    .main {
-        grid-template-columns: 1fr;
-    }
+.banner , .navegacion {
+    grid-column: span 1;
+}
+  
+.main {
+    grid-template-columns: 1fr;
+}
 
-    .sidebar {
-        grid-template-rows: repeat(2, 1fr);
-    }
+.sidebar {
+    grid-template-rows: repeat(2, 1fr);}
 
 }
 
